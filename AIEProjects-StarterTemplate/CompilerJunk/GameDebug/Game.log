@@ -1,0 +1,12 @@
+﻿Build started 12/05/2015 8:45:03 PM.
+     1>Project "C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\Game\Game.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\Compiled\GameDebug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\AIE_GL\bin\\" /LIBPATH:"C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\libraries\glew\lib\Release\Win32\\" /LIBPATH:"C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\libraries\glfw3\lib-vc2013\\" OpenGL32.lib AIE_GL_d.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\Compiled\GameDebug\Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\Compiled\GameDebug\Game.lib" /MACHINE:X86 "C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\CompilerJunk\GameDebug\Game.obj"
+         "C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\CompilerJunk\GameDebug\main.obj"
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Game.vcxproj -> C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\Compiled\GameDebug\Game.exe
+     1>Done Building Project "C:\Users\elizabeth.rowlands\Documents\GitHub\MathForGames\AIEProjects-StarterTemplate\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AIE_GL", "AIE_GL\AIE_GL.vcxproj", "{73904F27-F81D-4632-BABD-8C6DFA7E646B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathForGames", "MathForGames\MathForGames.vcxproj", "{D9A0DB46-0B52-4A3C-A097-E24161416E27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{797586C8-991C-493F-8813-D61E48AE6AD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73904F27-F81D-4632-BABD-8C6DFA7E646B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73904F27-F81D-4632-BABD-8C6DFA7E646B}.Debug|Win32.Build.0 = Debug|Win32
+		{73904F27-F81D-4632-BABD-8C6DFA7E646B}.Release|Win32.ActiveCfg = Release|Win32
+		{73904F27-F81D-4632-BABD-8C6DFA7E646B}.Release|Win32.Build.0 = Release|Win32
+		{D9A0DB46-0B52-4A3C-A097-E24161416E27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9A0DB46-0B52-4A3C-A097-E24161416E27}.Debug|Win32.Build.0 = Debug|Win32
+		{D9A0DB46-0B52-4A3C-A097-E24161416E27}.Release|Win32.ActiveCfg = Release|Win32
+		{D9A0DB46-0B52-4A3C-A097-E24161416E27}.Release|Win32.Build.0 = Release|Win32
+		{797586C8-991C-493F-8813-D61E48AE6AD2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{797586C8-991C-493F-8813-D61E48AE6AD2}.Debug|Win32.Build.0 = Debug|Win32
+		{797586C8-991C-493F-8813-D61E48AE6AD2}.Release|Win32.ActiveCfg = Release|Win32
+		{797586C8-991C-493F-8813-D61E48AE6AD2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
