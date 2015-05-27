@@ -1,7 +1,7 @@
 
 /*-----------------------------------------------------------------------------
-Author:			
-Description:	
+Author:			Elizabeth Rowlands
+Description:	Project that uses my math library
 -----------------------------------------------------------------------------*/
 #ifndef GAME1_H
 #define GAME1_H

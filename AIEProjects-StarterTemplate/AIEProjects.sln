@@ -1,12 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 13.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AIE_GL", "AIE_GL\AIE_GL.vcxproj", "{73904F27-F81D-4632-BABD-8C6DFA7E646B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{0CEC3182-C003-432E-9914-F91528FDD262}"
 	ProjectSection(ProjectDependencies) = postProject
 		{73904F27-F81D-4632-BABD-8C6DFA7E646B} = {73904F27-F81D-4632-BABD-8C6DFA7E646B}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary", "MathLibrary\MathLibrary.vcxproj", "{C6434067-0A37-41A8-A8F1-E71BEF90E2C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +26,10 @@ Global
 		{0CEC3182-C003-432E-9914-F91528FDD262}.Debug|Win32.Build.0 = Debug|Win32
 		{0CEC3182-C003-432E-9914-F91528FDD262}.Release|Win32.ActiveCfg = Release|Win32
 		{0CEC3182-C003-432E-9914-F91528FDD262}.Release|Win32.Build.0 = Release|Win32
+		{C6434067-0A37-41A8-A8F1-E71BEF90E2C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6434067-0A37-41A8-A8F1-E71BEF90E2C7}.Debug|Win32.Build.0 = Debug|Win32
+		{C6434067-0A37-41A8-A8F1-E71BEF90E2C7}.Release|Win32.ActiveCfg = Release|Win32
+		{C6434067-0A37-41A8-A8F1-E71BEF90E2C7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
