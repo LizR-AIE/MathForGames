@@ -8,12 +8,10 @@ Game1::Game1(unsigned int windowWidth, unsigned int windowHeight, bool fullscree
 {
 	m_spritebatch = SpriteBatch::Factory::Create(this, SpriteBatch::GL3);
 	m_background = new Texture("./Images/Background1.png");
-	m_backgroundX = GetWindowWidth() / 2.0f;
-	m_backgroundY = GetWindowHeight()/ 2.0f;
+	backgroundPos = LML::vec2(GetWindowWidth() / 2.0f, GetWindowHeight()/ 2.0f);
 
 	m_playerTexture = new Texture("./Images/nodeTexture.png");
-	m_playerX = GetWindowWidth() / 2.0f;
-	m_playerY = GetWindowHeight() / 2.0f;
+	playerPos = LML::vec2(GetWindowWidth() / 2.0f, GetWindowHeight() / 2.0f);
 }
 
 Game1::~Game1()
@@ -38,10 +36,10 @@ void Game1::Draw()
 	m_spritebatch->Begin();
 
 	// Background
-	m_spritebatch->DrawSprite(m_background, m_backgroundX, m_backgroundY, GetWindowWidth(), GetWindowHeight());
+	m_spritebatch->DrawSprite(m_background, backgroundPos.x, backgroundPos.y, GetWindowWidth(), GetWindowHeight());
 	
 	// Player
-	m_spritebatch->DrawSprite(m_playerTexture, m_playerX, m_playerY);
+	m_spritebatch->DrawSprite(m_playerTexture, playerPos.x, playerPos.y);
 	
 	m_spritebatch->End();
 }

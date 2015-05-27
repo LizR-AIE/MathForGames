@@ -9,6 +9,8 @@ Description:	Project that uses my math library
 #include "Application.h"
 class SpriteBatch;
 
+#include "vec2.h"
+
 class Game1 : public Application
 {
 public:
@@ -27,13 +29,11 @@ protected:
 	SpriteBatch *m_spritebatch;
 
 	Texture *m_background;
-	float m_backgroundX;
-	float m_backgroundY;
-
+	LML::vec2 backgroundPos;
+	
 private:
 	Texture *m_playerTexture;
-	float m_playerX;
-	float m_playerY;
+	LML::vec2 playerPos;
 
 };
 
